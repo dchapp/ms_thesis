@@ -1,0 +1,61 @@
+% This file (thesis-main.tex) is the main file for a master's thesis.
+\documentclass {udthesis}
+% preamble
+
+% Include graphicx package for the example image used
+% Use LaTeX->PDF if including graphics such as .jpg, .png or .pdf.
+% Use LaTeX->PS->PDF if including graphics such as .ps or .eps
+% Best practice to not specify the file extension for included images,
+% so when LaTeX is building it will look for the appropriate image type.
+\usepackage{graphicx, 
+            algorithm, 
+            algorithmic, 
+            tikz,
+            amsmath,
+            amsfonts
+            }
+\usepackage[tight,footnotesize]{subfigure}
+\usepackage{url}
+\usepackage{hyperref}
+%%% Add stackengine package to align labels in concrete example of recording
+\usepackage{stackengine}
+                
+\begin{document}
+\include{thesis-tap}
+                   % This file (thesis-tap.tex) contains the Title
+                   % and Approval Page information for a master's thesis.
+
+\include{chapter_1}    % This file (chap1.tex) contains the text
+                   % for Chapter 1.
+                   
+\include{chapter_2}    % This file (chap2.tex) contains the text
+                   % for Chapter 2.
+
+\include{chapter_3}   
+
+% \include{chapter_3_part_1} % ReMPI stuff
+% \include{chapter_3_part_2} % ReMPI stuff
+
+% \include{chapter_4} % Related work
+
+\include{chapter_4} % Conclusions and future work
+%\include{ref}      % This file (ref.tex) contains the text
+                   % for the references.
+                   
+%\include{bib}      % This file (bib.tex) contains the text
+                   % for a bibliography.
+                                      
+\include{bibtex}	 % This file (bibtex.tex) contains the text
+                   % for a bibliography if using BibTeX with
+                   % sample.bib
+                                      
+%\include{app}      % This file (app.tex) contains the text
+                   % for one Appendix. 
+                   
+%\include{appA}     % This file (appA.tex) contains the text
+                   % for Appendix A. 
+                   
+%\include{appB}     % This file (appB.tex) contains the text
+                   % for Appendix B.   
+       
+\end{document}

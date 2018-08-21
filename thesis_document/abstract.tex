@@ -1,0 +1,36 @@
+Non-determinism in high performance scientific applications
+has severe detrimental impacts for both numerical
+reproducibility and accuracy, and debugging. 
+As scientific simulations are migrated to extreme-scale 
+platforms, the increase in platform concurrency and the
+attendant increase in non-determinism is likely to 
+exacerbate both of these problems. 
+In this thesis, we address the dual challenges of 
+non-determinism's impact on numerical reproducibility 
+and on debugging. 
+
+To address the numerical challenge, 
+our work investigates the power of mathematical
+methods to mitigate error propagation at the exascale. We focus on
+floating-point error accumulation over global summations where
+enforcing any reduction order is expensive or impossible. We model
+parallel summations with reduction trees and identify those parameters
+that can be used to estimate the reduction's sensitivity to
+variability in the reduction tree.  We assess the impact of these
+parameters on the ability of different reduction methods to
+successfully mitigate errors. Our results illustrate the pressing need
+for intelligent runtime selection of reduction operators that ensure a
+given degree of reproducible accuracy.
+
+To address the debugging challenge,
+our work examines the impact of logical clock ticking
+policies on the Clock-Delta Compression record-and-replay
+technique. We assess three logical clock ticking policies
+in terms of the number of out-of-order messages that result
+during recording executions under these policies.
+We examine the performance of Clock-Delta Compression when 
+using the three ticking policies in four distinct application
+scenarios to probe the impact of floating-point workload and 
+communication intensity on recording performance. 
+Our results illustrate the pressing need for fine-grained logical clock ticking policies that reduce then out-of-order message rate of the Clock-Delta Compression record-and-replay technique.
+

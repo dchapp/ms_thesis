@@ -1,0 +1,1083 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Target Applications %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@misc{Software:MCB,
+    title={{MCB}: {Monte} {Carlo} {Benchmark}},
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Numerical Reproducibility %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@INPROCEEDINGS{bailey,
+   author = {Bailey, D.H.},
+   title = {{High-precision Floating-point Arithmetic in Scientific
+                  Computation}},
+   booktitle = {Computing in Science and Engineering}, 
+   month= may-jun, 
+   year = {2005} 
+}
+
+@article {vignes,
+   AUTHOR = {Vignes, J.},
+   TITLE = {{A Stochastic Arithmetic for Reliable Scientific
+                  Computation}},
+   JOURNAL = {Math. Comput. Simulation},
+   FJOURNAL = {Mathematics and Computers in Simulation},
+   VOLUME = {35},
+   NUMBER = {3},
+   PAGES = {233--261},
+   YEAR = {1993},
+}
+
+@inproceedings{precimonious,
+   author = {Rubio-Gonz\'{a}lez, C. and Nguyen, C. and Nguyen, H.D. and
+                  Demmel, J. and Kahan, W. and Sen, K. and Bailey,
+                  D.H. and Iancu, C. and Hough, D.},
+  title = {{Precimonious: Tuning Assistant for Floating-point
+                  Precision}},
+  booktitle = {Proc. of the International Conference on High
+                  Performance Computing, Networking, Storage and
+                  Analysis (SC)},
+  location = {Denver, Colorado, U.S.A.},
+  year = {2013},
+} 
+
+@techreport{Doe2014,
+  author = {},
+  title = {{Top Ten Exascale Research Challenges}},
+  institution = {Department of Energy (DOE)},
+  month = {February},
+  year = {2014},
+  url = {http://science.energy.gov/.../Top10reportFEB14.pdf},
+}
+
+@inproceedings{he,
+  author = {He, Y. and Ding, C.H.Q.},
+  title = {{Using Accurate Arithmetics to Improve Numerical
+                  Reproducibility and Stability in Parallel
+                  Applications}},
+  booktitle = {Proc. of the 14th International Conference on
+                  Supercomputing (ICS)},
+  pages = {225--234},
+  location = {Santa Fe, New Mexico, USA},
+  year = {2000},
+} 
+
+@article{McNamee,
+  author = {McNamee, John Michael},
+  title = {{A Comparison of Methods for Accurate Summation}},
+  journal = {SIGSAM Bull.},
+  volume = {38},
+  number = {1},
+  month = {March},
+  year = {2004},
+} 
+
+@inproceedings{langlois,
+  author = {Langlois, P. and Martel, M. and Th{\'e}venoux, L.},
+  title = {{Accuracy Versus Time: A Case Study with Summation
+                  Algorithms}},
+  booktitle = {Proc. of the 4th International Workshop on Parallel and
+                  Symbolic Computation (PASCO)},
+  pages = {121--130},
+  location = {Grenoble, France},
+  year = {2010},
+} 
+
+@article{demmel,
+  author={Demmel, J. and Nguyen, H.D.},
+  title={{Parallel Reproducible Summation}},
+  journal={IEEE Transactions on Computers},
+  pages={2060-2070},
+  volume={64},
+  number={7},
+  year={2015},
+}
+
+@book {higham02,
+   AUTHOR = {Higham, N.J.},
+   TITLE = {{Accuracy and Stability of Numerical Algorithms}},
+   PUBLISHER = {Society for Industrial and Applied Mathematics (SIAM),
+              Philadelphia, PA},
+   YEAR = {2002},
+   PAGES = {xxx+680},
+   EDITION = {Second},
+   ISBN = {0-89871-521-0},
+}
+
+@INPROCEEDINGS{balaji13,
+   author={Balaji, P. and Kimpe, D.},
+   title={{On the Reproducibility of MPI Reduction Operations}},
+   booktitle={Proc of the IEEE International Conference on High
+                  Performance Computing and Communications (HPCC)},
+  month={November},
+  year={2013},
+}
+
+@article{Higham93,
+   author = {Higham, N. J.},
+   title = {{The Accuracy of Floating Point Summation}},
+   journal = {SIAM J. Sci. Comput.},
+   volume = {14},
+   pages = {783--799},
+   number = {4},
+   month = {July},
+   year = {1993},
+} 
+
+@article{jezequel,
+  AUTHOR = {J{\'e}z{\'e}quel, F. and Langlois, P. and Revol, N.},
+  TITLE = {{First Steps Towards more Numerical Reproducibility}},
+  JOURNAL = {{ESAIM: Proceedings}},
+  PUBLISHER = {{EDP Sciences}},
+  SERIES = {ESAIM: Proceedings},
+  VOLUME = {45},
+  PAGES = {229-238},
+  MONTH = {September},
+  YEAR = {2014},
+}
+
+@inproceedings{chiang13,
+  author={Chiang, W.-F. and Gopalakrishnan, G. and Rakamaric, Z. and
+                  Ahn, Dong H. and Lee, G.L.},
+  title={{Determinism and Reproducibility in Large-scale HPC Systems}},
+  booktitle={Proc. of the 4th Workshop on Determinism and Correctness
+                  in Parallel Programming (WoDet)},
+  location = {Houston, Texas, U.S.A.},
+  year={2013},
+}
+
+@inproceedings{Ahn,
+ author = {Ahn, D.H. and Lee, G.L. and Gopalakrishnan, G.  and
+                  Rakamari\'{c}, Z. and Schulz, M. and Laguna, I.},
+ title = {{Overcoming Extreme-scale Reproducibility Challenges Through
+                  a Unified, Targeted, and Multilevel Toolset}},
+ booktitle = {Proc. of the 1st International Workshop on Software
+                  Engineering for High Performance Computing in
+                  Computational Science and Engineering
+                  (SE-HPCCSE)},
+ location = {Denver, Colorado, U.S.A.},
+ year = {2013},
+} 
+
+@article{kahan65,
+ author = {Kahan, W.},
+ title = {{Pracniques: Further Remarks on Reducing Truncation Errors}},
+ journal = {Communications of the ACM},
+ volume = {8},
+ number = {1},
+ month = jan,
+ year = {1965},
+ pages = {40--},
+} 
+
+@INPROCEEDINGS{Taufer2010, 
+author={Taufer, M. and Padron, O. and Saponaro, P. and Patel, S.}, 
+title={{Improving Numerical Reproducibility and Stability in
+                  Large-scale Numerical Simulations on GPUs}}, 
+booktitle={Proc. of the IEEE International Symposium on Parallel
+                  Distributed Processing (IPDPS)}, 
+pages={1-9}, 
+month={April}, 
+year={2010}, 
+}
+
+@mastersthesis{Castaldo,
+    author={Castaldo, A.},
+    title={{Error Analysis of Various Forms of Floating Point Dot
+                  Products}},
+    school = {University of Texas at San Antonio},
+    year={2007},
+    month={August},
+}
+
+@article{Demmel_Hida,
+    author={Demmel, J. and Hida, Y.},
+    title={{Accurate and Efficient Floating Point Summation}},
+    journal={SIAM J. Sci. Comp.},
+    volume={25},
+    number={4},
+    pages={1214-1248},
+    year={2003},
+}
+
+@misc{reproblas,
+    author={Nguyen, H.D. and Demmel, J.},
+    title={ReproBLAS: Reproducible BLAS},
+    howpublished={\url{http://bebop.cs.berkeley.edu/reproblas/}},
+}
+
+@article{Robey2011,
+    author={Robey, R. and Robey, J. and Aulwes, R.},
+    title={In Search of Numerical Consistency in Parallel Programming},
+    journal={Parallel Computing},
+    volume={37},
+    number={4},
+    pages={217-229},
+    year={2011},
+    month={April},
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Performance Counters %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@inproceedings{PAPI:Mucci:1999,
+    author = {Philip J. Mucci and Shirley Browne and Christine Deane and George Ho},
+    title = {PAPI: A Portable Interface to Hardware Performance Counters},
+    booktitle = {In Proceedings of the Department of Defense HPCMP Users Group Conference},
+    year = {1999},
+    pages = {7--10}
+}
+@inproceedings{PerfCounters:Weaver:2013, 
+author={V. M. Weaver and D. Terpstra and S. Moore}, 
+booktitle={2013 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)}, 
+title={Non-determinism and overcount on modern hardware performance counter implementations}, 
+year={2013}, 
+pages={215-224}, 
+month={April},}
+}
+@techreport{PerfCountersBGQ:McCraw:2013,
+    author={Heike McCraw and  Dan Terpstra and Jack Dongarra and Kris Davis and Roy Musselman},
+    title={Performance Counter Monitoring for the Blue Gene/Q Architecture},
+    institution={University of Tennessee},
+    group={Innovative Computing Laboratory},
+    year={2013}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Logical Clocks %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{LogicalClocks:Lamport:1978,
+author = {Lamport, L.},
+title = {Time, Clocks, and the Ordering of Events in a Distributed System},
+journal = {Commun. ACM},
+issue_date = {July 1978},
+volume = {21},
+number = {7},
+month = jul,
+year = {1978},
+pages = {558--565},
+numpages = {8},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+@article{VectorClocksI:Fidge:1988,
+author = {Fidge, C. J.},
+description = {Timestamps in message-passing systems that preserve the partial ordering | Mendeley},
+journal = {Proceedings of the 11th Australian Computer Science Conference},
+number = 1,
+pages = {56–66},
+title = {Timestamps in message-passing systems that preserve the partial ordering},
+volume = 10,
+year = 1988
+}
+
+@inproceedings{VectorClocksII:Fidge:1988,
+author = {Colin Fidge},
+title = {Partial Orders for Parallel Debugging},
+booktitle = {Proceedings of the 1988 ACM SIGPLAN and SIGOPS Workshop on Parallel and Distributed Debugging},
+series = {PADD '88},
+year = {1988},
+location = {Madison, Wisconsin, USA},
+pages = {183--194},
+numpages = {12},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+@inproceedings{VectorClocksIII:Mattern:1988,
+author = {Friedemann Mattern},
+title = {Virtual Time and Global States of Distributed Systems},
+booktitle = {PARALLEL AND DISTRIBUTED ALGORITHMS},
+year = {1988},
+pages = {215--226},
+publisher = {North-Holland}
+}
+
+@article{MonotonicAndCyclicClocks:Lamport:1990,
+author = {Lamport, Leslie},
+title = {Concurrent Reading and Writing of Clocks},
+journal = {ACM Trans. Comput. Syst.},
+issue_date = {Nov. 1990},
+volume = {8},
+number = {4},
+month = nov,
+year = {1990},
+pages = {305--310},
+numpages = {6},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+
+@article{LogicalClockSize:Charron-Bost:1991,
+author = {Charron-Bost, Bernadette},
+title = {Concerning the Size of Logical Clocks in Distributed Systems},
+journal = {Inf. Process. Lett.},
+issue_date = {July 12, 1991},
+volume = {39},
+number = {1},
+month = jul,
+year = {1991},
+pages = {11--16},
+numpages = {6},
+publisher = {Elsevier North-Holland, Inc.},
+address = {Amsterdam, The Netherlands, The Netherlands},
+} 
+
+@article{SurveyOfClocks:Raynal:1992,
+author = {Raynal, Michel},
+title = {About Logical Clocks for Distributed Systems},
+journal = {SIGOPS Oper. Syst. Rev.},
+issue_date = {Jan. 1992},
+volume = {26},
+number = {1},
+month = jan,
+year = {1992},
+pages = {41--48},
+numpages = {8},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+@article{SimulatingSynchronizedClocks:Neiger:1993,
+author = {Neiger, Gil and Toueg, Sam},
+title = {Simulating Synchronized Clocks and Common Knowledge in Distributed Systems},
+journal = {J. ACM},
+issue_date = {April 1993},
+volume = {40},
+number = {2},
+month = apr,
+year = {1993},
+pages = {334--367},
+numpages = {34},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+@article{SurveyOfClocks:Schwarz:1994,
+author = {Schwarz, Reinhard and Mattern, Friedemann},
+title = {Detecting Causal Relationships in Distributed Computations: In Search of the Holy Grail},
+journal = {Distrib. Comput.},
+issue_date = {March 1994},
+volume = {7},
+number = {3},
+month = mar,
+year = {1994},
+pages = {149--174},
+numpages = {26},
+publisher = {Springer-Verlag},
+address = {London, UK, UK},
+} 
+
+@techreport{LogicalTime:Raynal:1995,
+author = {Raynal Singhal Mars and M. Raynal and M. Raynal and M. Singhal and M. Singhal},
+title = {Logical Time: A Way to Capture Causality in Distributed Systems},
+institution = {},
+year = {1995}
+}
+
+@article{DependencySequencesAndHierarchicalClocks:Prakash:1997,
+author = {Prakash, Ravi and Singhal, Mukesh},
+title = {Dependency Sequences and Hierarchical Clocks: Efficient Alternatives to Vector Clocks for Mobile Computing Systems},
+journal = {Wirel. Netw.},
+issue_date = {Oct. 1997},
+volume = {3},
+number = {5},
+month = oct,
+year = {1997},
+pages = {349--360},
+numpages = {12},
+publisher = {Springer-Verlag New York, Inc.},
+address = {Secaucus, NJ, USA},
+} 
+
+@article{PlausibleClocks:Torres-Rojas:1999,
+author = {Torres-Rojas, Francisco J. and Ahamad, Mustaque},
+title = {Plausible Clocks: Constant Size Logical Clocks for Distributed Systems},
+journal = {Distrib. Comput.},
+issue_date = {September 1999},
+volume = {12},
+number = {4},
+month = sep,
+year = {1999},
+pages = {179--195},
+numpages = {17},
+publisher = {Springer-Verlag},
+address = {London, UK, UK},
+} 
+
+@inproceedings{PropertyDetectionWithVectorClocks:Raynal:1999,
+author = {Raynal, Michel},
+title = {Illustrating the Use of Vector Clocks in Property Detection: An Example and a Counter-Example},
+booktitle = {Proceedings of the 5th International Euro-Par Conference on Parallel Processing},
+series = {Euro-Par '99},
+year = {1999},
+pages = {806--814},
+numpages = {9},
+publisher = {Springer-Verlag},
+address = {London, UK, UK},
+} 
+
+@incollection{GroupClockProtocol:Mostefaoui:1999,
+year={1999},
+booktitle={Parallel Computing Technologies},
+volume={1662},
+series={Lecture Notes in Computer Science},
+editor={Malyshkin, Victor},
+title={Consistent {L}amport Clocks for Asynchronous Groups with Process Crashes},
+publisher={Springer Berlin Heidelberg},
+author={Mostéfaoui, Achour and Raynal, Michel and Takizawa, Makoto},
+pages={98-107},
+language={English}
+}
+
+@inproceedings{LogicalClockGeneralizations:Kshemkalyani:2000,
+author = {Kshemkalyani, Ajay D.},
+title = {Concurrent Knowledge and Logical Clock Abstractions},
+booktitle = {Proceedings of the 20th Conference on Foundations of Software Technology and Theoretical Computer Science},
+series = {FST TCS 2000},
+year = {2000},
+pages = {489--502},
+numpages = {14},
+publisher = {Springer-Verlag},
+address = {London, UK, UK},
+} 
+
+@article{PhaseClocks:Herman:1999,
+author = {Ted Herman},
+title = {Phase Clocks for Transient Fault Repair},
+journal = {IEEE Transactions on Parallel and Distributed Systems},
+year = {1999},
+volume = {11},
+pages = {2000}
+}
+
+@inproceedings{ResettableVectorClocks:Arora:2000,
+author = {Arora, Anish and Kulkarni, Sandeep and Demirbas, Murat},
+title = {Resettable Vector Clocks},
+booktitle = {Proceedings of the Nineteenth Annual ACM Symposium on Principles of Distributed Computing},
+series = {PODC '00},
+year = {2000},
+location = {Portland, Oregon, USA},
+pages = {269--278},
+numpages = {10},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+@inproceedings{AccordionClocks:Christiaens:2001,
+author = {Christiaens, Mark and Bosschere, Koenraad De},
+title = {Accordion Clocks: Logical Clocks for Data Race Detection},
+booktitle = {Proceedings of the 7th International Euro-Par Conference Manchester on Parallel Processing},
+series = {Euro-Par '01},
+year = {2001},
+pages = {494--503},
+numpages = {10},
+publisher = {Springer-Verlag},
+address = {London, UK, UK},
+} 
+
+@inproceedings{EvaluationOfPlausibleClocks:Torres-Rojas:2001,
+author = {Torres-Rojas, Francisco J.},
+title = {Performance Evaluation of Plausible Clocks},
+booktitle = {Proceedings of the 7th International Euro-Par Conference Manchester on Parallel Processing},
+series = {Euro-Par '01},
+year = {2001},
+pages = {476--481},
+numpages = {6},
+publisher = {Springer-Verlag},
+address = {London, UK, UK},
+} 
+
+@article{ReverseEngineeringWithLogicalClocks:Hrischuk:2002,
+author = {Hrischuk, C. E. and Woodside, C. M.},
+title = {Logical Clock Requirements for Reverse Engineering Scenarios from a Distributed System},
+journal = {IEEE Trans. Softw. Eng.},
+issue_date = {April 2002},
+volume = {28},
+number = {4},
+month = apr,
+year = {2002},
+pages = {321--339},
+numpages = {19},
+publisher = {IEEE Press},
+address = {Piscataway, NJ, USA},
+} 
+
+@inproceedings{GradientClockSynch:Fan:2004,
+author = {Fan, Rui and Lynch, Nancy},
+title = {Gradient Clock Synchronization},
+booktitle = {Proceedings of the Twenty-third Annual ACM Symposium on Principles of Distributed Computing},
+series = {PODC '04},
+year = {2004},
+location = {St. John's, Newfoundland, Canada},
+pages = {320--327},
+numpages = {8},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+@inproceedings{PlausibleClocksWithBoundedInaccuracy:Moore:2005,
+author = {Moore, Brad T. and Sivilotti, Paolo A. G.},
+title = {Plausible Clocks with Bounded Inaccuracy},
+booktitle = {Proceedings of the 19th International Conference on Distributed Computing},
+series = {DISC'05},
+year = {2005},
+location = {Cracow, Poland},
+pages = {214--228},
+numpages = {15},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+} 
+
+@inproceedings{LogicalClocksForReplay:Wang:2005,
+author = {Wang, Wei and Fang, Binxing},
+title = {An Efficient Logical Clock for Replaying Message-passing Programs},
+booktitle = {Proceedings of the 9th WSEAS International Conference on Computers},
+series = {ICCOMP'05},
+year = {2005},
+location = {Athens, Greece},
+pages = {92:1--92:5},
+articleno = {92},
+numpages = {5},
+publisher = {World Scientific and Engineering Academy and Society (WSEAS)},
+address = {Stevens Point, Wisconsin, USA},
+} 
+
+@inproceedings{DynamicChainClocks:Agarwal:2005,
+author = {Agarwal, Anurag and Garg, Vijay K.},
+title = {Efficient Dependency Tracking for Relevant Events in Shared-memory Systems},
+booktitle = {Proceedings of the Twenty-fourth Annual ACM Symposium on Principles of Distributed Computing},
+series = {PODC '05},
+year = {2005},
+location = {Las Vegas, NV, USA},
+pages = {19--28},
+numpages = {10},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+@INPROCEEDINGS{VerificationOfMPIWithClocks:Vo:2011,
+author={Vo, A. and Gopalakrishnan, G. and Kirby, R.M. and de Supinski, B.R. and Schulz, M. and Bronevetsky, G.},
+booktitle={Parallel Architectures and Compilation Techniques (PACT), 2011 International Conference on},
+title={Large Scale Verification of {MPI} Programs Using {L}amport Clocks with Lazy Update},
+year={2011},
+pages={330-339},
+month={Oct},
+}
+
+@article{ControlledLogicalClock:Becker:2013,
+author = {Becker, Daniel and Geimer, Markus and Rabenseifner, Rolf and Wolf, Felix},
+title = {Extending the Scope of the Controlled Logical Clock},
+journal = {Cluster Computing},
+issue_date = {March     2013},
+volume = {16},
+number = {1},
+month = mar,
+year = {2013},
+pages = {171--189},
+numpages = {19},
+publisher = {Kluwer Academic Publishers},
+address = {Hingham, MA, USA},
+} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Hybrid Logical Clocks %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@incollection{LogicalPhysicalClocks:Kulkarni:2014,
+year={2014},
+booktitle={Principles of Distributed Systems},
+volume={8878},
+series={Lecture Notes in Computer Science},
+editor={Aguilera, MarcosK. and Querzoni, Leonardo and Shapiro, Marc},
+title={Logical Physical Clocks},
+publisher={Springer International Publishing},
+author={Kulkarni, SandeepS. and Demirbas, Murat and Madappa, Deepak and Avva, Bharadwaj and Leone, Marcelo},
+pages={17-32},
+language={English}
+}   
+
+@article{BeyondTrueTime:Demirbas:2013,
+title={Beyond {T}rue{T}ime: Using {A}ugmented{T}ime for Improving {G}oogle {S}panner},
+author={Demirbas, Murat and Kulkarni, Sandeep},
+journal={{LADIS}'13: 7th Workshop on Large-Scale Distributed Systems and Middleware},
+year={2013},
+}
+
+@article{HybridVectorClockBounds:Yingchareonthawornchai:2015,
+title={Analysis of Bounds on Hybrid Vector Clocks},
+author={Yingchareonthawornchai, Sorrachai and Kulkarni, Sandeep and Demirbas, Murat},
+journal={Internation Conference on Principles of Distributed Systems},
+year={2015},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Record and Replay Techniques %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@incollection{ReplayOverview:Bouteiller:2007,
+year={2007},
+booktitle={Recent Advances in Parallel Virtual Machine and Message Passing Interface},
+volume={4757},
+series={Lecture Notes in Computer Science},
+editor={Cappello, Franck and Herault, Thomas and Dongarra, Jack},
+title={Retrospect: Deterministic Replay of {MPI} Applications for Interactive Distributed Debugging},
+publisher={Springer Berlin Heidelberg},
+author={Bouteiller, Aurelien and Bosilca, George and Dongarra, Jack},
+pages={297-306},
+language={English}
+}
+
+@inproceedings{OptimalTracing:Netzer:1992,
+author = {Netzer, R. H. B. and Miller, B. P.},
+title = {Optimal Tracing and Replay for Debugging Message-passing Parallel Programs},
+booktitle = {Proceedings of the 1992 ACM/IEEE Conference on Supercomputing},
+series = {Supercomputing '92},
+year = {1992},
+location = {Minneapolis, Minnesota, USA},
+pages = {502--511},
+numpages = {10},
+publisher = {IEEE Computer Society Press},
+address = {Los Alamitos, CA, USA},
+} 
+
+@inproceedings{RaceDetection:Clemencon:1995,
+author = {Cl{\'e}men\c{c}on, C. and Fritscher, J. and Meehan, M. J. and R\"{u}hl, R.},
+title = {An Implementation of Race Detection and Deterministic Replay with {MPI}},
+booktitle = {Proceedings of the First International Euro-Par Conference on Parallel Processing},
+series = {Euro-Par '95},
+year = {1995},
+pages = {155--166},
+numpages = {12},
+publisher = {Springer-Verlag},
+address = {London, UK, UK},
+} 
+
+@inproceedings{MPLStar:Kergommeaux:1999,
+author = {Kergommeaux, Jacques Chassin de and Ronsse, Michiel and Bosschere, Koenraad De},
+title = {{MPL}*: Efficient Record/Play of Nondeterministic Features of Message Passing Libraries},
+booktitle = {Proceedings of the 6th European PVM/MPI Users' Group Meeting on Recent Advances in Parallel Virtual Machine and Message Passing Interface},
+year = {1999},
+pages = {141--148},
+numpages = {8},
+publisher = {Springer-Verlag},
+address = {London, UK, UK},
+} 
+
+@inproceedings{NOPE:Kranzlmuller:1999,
+author = {Kranzlm\"{u}ller, D. and Volkert, J.},
+title = {{NOPE}: A Nondeterministic Program Evaluator},
+booktitle = {Proceedings of the 4th International ACPC Conference Including Special Tracks on Parallel Numerics and Parallel Computing in Image Processing, Video Processing, and Multimedia: Parallel Computation},
+series = {ParNum '99},
+year = {1999},
+pages = {490--499},
+numpages = {10},
+publisher = {Springer-Verlag},
+address = {London, UK, UK},
+}
+
+@inproceedings{IntegratedRecordAndReplay:Kranzlmuller:2001,
+author = {Kranzlm\"{u}ller, Dieter and Schaubschl\"{a}ger, Christian and Volkert, Jens},
+title = {An Integrated Record\&Replay Mechanism for Nondeterministic Message Passing Programs},
+booktitle = {Proceedings of the 8th European PVM/MPI Users' Group Meeting on Recent Advances in Parallel Virtual Machine and Message Passing Interface},
+year = {2001},
+pages = {192--200},
+numpages = {9},
+publisher = {Springer-Verlag},
+address = {London, UK, UK},
+} 
+
+@inproceedings{ClockDeltaCompression:Sato:2015,
+author = {Sato, K. and Ahn, D. H. and Laguna, I. and Lee, G. L. and Schulz, M.},
+title = {Clock Delta Compression for Scalable Order-replay of Non-deterministic Parallel Applications},
+booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+series = {SC '15},
+year = {2015},
+location = {Austin, Texas},
+pages = {62:1--62:12},
+articleno = {62},
+numpages = {12},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+@inproceedings{NINJA:Sato:2017,
+author = {Sato, K. and Ahn, D. H. and Laguna, I. and Lee, G. L. and Schulz, M. and Chambreau, C. M.},
+title = {Noise Injection Techniques to Expose Subtle and Unintended Message Races},
+booktitle = {Proceedings of the 20th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming},
+series = {PPoPP '17},
+location = {Austin, Texas},
+}
+
+@inproceedings{MPIWiz:Xue:2009,
+author = {Xue, Ruini and Liu, Xuezheng and Wu, Ming and Guo, Zhenyu and Chen, Wenguang and Zheng, Weimin and Zhang, Zheng and Voelker, Geoffrey},
+title = {{MPIW}iz: Subgroup Reproducible Replay of Mpi Applications},
+booktitle = {Proceedings of the 14th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming},
+series = {PPoPP '09},
+year = {2009},
+location = {Raleigh, NC, USA},
+pages = {251--260},
+numpages = {10},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Compression %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{LinearPredictiveCoding:OShaughnessy:1980,
+author={O'Shaughnessy, D.},
+journal={Potentials, IEEE},
+title={Linear predictive coding},
+year={1988},
+volume={7},
+number={1},
+pages={29-32},
+month={Feb},
+}
+
+@misc{gzipSpec,
+author = {Deutsch, P.},
+title = {{GZIP} File Format Specification Version 4.3},
+year = {1996},
+}
+
+@misc{zlibSpec,
+author = {Deutsch, P. and Gailly, J.-L.},
+title = {{ZLIB} Compressed Data Format Specification Version 3.3},
+year = {1996},
+}
+
+@inproceedings{TraceCompression:Noeth:2007,
+author={Noeth, M. and Mueller, F. and Schulz, M. and de Supinski, B.R.},
+booktitle={Parallel and Distributed Processing Symposium, 2007. IPDPS 2007. IEEE International},
+title={Scalable Compression and Replay of Communication Traces in Massively Parallel Environments},
+year={2007},
+pages={1-11},
+month={March},
+}
+
+@inproceedings{TraceReduction:Mohror:2009,
+author={Mohror, K. and Karavanic, K.L.},
+booktitle={High Performance Computing Networking, Storage and Analysis, Proceedings of the Conference on},
+title={Evaluating similarity-based trace reduction techniques for scalable performance analysis},
+year={2009},
+pages={1-12},
+month={Nov},
+}
+
+@inproceedings{TraceCompression:Krishnamoorthy:2010,
+author={Krishnamoorthy, S. and Agarwal, K.},
+booktitle={Cluster, Cloud and Grid Computing (CCGrid), 2010 10th IEEE/ACM International Conference on},
+title={Scalable Communication Trace Compression},
+year={2010},
+pages={408-417},
+month={May},
+}
+
+@inproceedings{Cypress:Zhai:2014,
+author = {Zhai, Jidong and Hu, Jianfei and Tang, Xiongchao and Ma, Xiaosong and Chen, Wenguang},
+title = {Cypress: Combining Static and Dynamic Analysis for Top-down Communication Trace Compression},
+booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+series = {SC '14},
+year = {2014},
+location = {New Orleans, Louisana},
+pages = {143--153},
+numpages = {11},
+publisher = {IEEE Press},
+address = {Piscataway, NJ, USA},
+}
+
+@article{PermutationRanking:Myrvold:2001,
+ author = {Myrvold, Wendy and Ruskey, Frank},
+ title = {Ranking and Unranking Permutations in Linear Time},
+ journal = {Inf. Process. Lett.},
+ issue_date = {September 30, 2001},
+ volume = {79},
+ number = {6},
+ month = sep,
+ year = {2001},
+ pages = {281--284},
+ numpages = {4},
+ publisher = {Elsevier North-Holland, Inc.},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Reproducibility in HPC %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{AtmosphereModel:Mirin:2011,
+title={Improving the performance scalability of the community atmosphere model},
+author={Mirin, Arthur A and Worley, Patrick H},
+journal={International Journal of High Performance Computing Applications},
+pages={1094342011412630},
+year={2011},
+publisher={SAGE Publications}
+}
+
+@inproceedings{MPIReductions:Balaji:2013,
+author    = {Pavan Balaji and
+           Dries Kimpe},
+title     = {On the Reproducibility of {MPI} Reduction Operations},
+booktitle = {10th {IEEE} International Conference on High Performance Computing
+           and Communications {\&} 2013 {IEEE} International Conference on
+           Embedded and Ubiquitous Computing, {HPCC/EUC} 2013, Zhangjiajie, China,
+           November 13-15, 2013},
+pages     = {407--414},
+year      = {2013},
+}
+
+@article{Determinism:Chiang:2013,
+title={Determinism and reproducibility in large-scale {HPC} systems},
+author={Chiang, Wei-Fan and Gopalakrishnan, Ganesh and Rakamaric, Zvonimir and Ahn, Dong H and Lee, Gregory L},
+journal={Workshop on Determinism and Correctness in Parallel Programming (WoDet)},
+year={2013}
+}
+
+@article{Reproducibility:Cleveland:2013,
+author = {Cleveland, M. A. and Brunner, T. A. and Gentile, N. A. and Keasler, J. A.},
+title = {Obtaining Identical Results with Double Precision Global Accuracy on Different Numbers of Processors in Parallel Particle {M}onte {C}arlo Simulations},
+journal = {J. Comput. Phys.},
+issue_date = {October, 2013},
+volume = {251},
+month = oct,
+year = {2013},
+pages = {223--236},
+numpages = {14},
+publisher = {Academic Press Professional, Inc.},
+address = {San Diego, CA, USA},
+}
+
+@inproceedings{PRUNER:Ahn:2013,
+author = {Ahn, Dong H. and Lee, Gregory L. and Gopalakrishnan, Ganesh and Rakamari\'{c}, Zvonimir and Schulz, Martin and Laguna, Ignacio},
+title = {Overcoming Extreme-scale Reproducibility Challenges Through a Unified, Targeted, and Multilevel Toolset},
+booktitle = {Proceedings of the 1st International Workshop on Software Engineering for High Performance Computing in Computational Science and Engineering},
+series = {SE-HPCCSE '13},
+year = {2013},
+location = {Denver, Colorado},
+pages = {41--44},
+numpages = {4},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+%%%% Robey's slides from SC15 workshop on numerical reproducibility %%%%
+@inproceedings{ReproCompPhys:Robey:2015,
+author = {Robey, Robert},
+title = {Computational Reproducibility in Production Physics Applications},
+series = {SC-WNRE},
+year = {2015},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%% MPI Tools, Tracing, and Debugging %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@misc{PMPI:Dongarra:1995,
+author = {Dongarra, J.},
+title = {{T}he {MPI} {P}rofiling {I}nterface},
+year = {1995},
+} 
+
+@inproceedings{PNMPI:Schulz:2007,
+author={Schulz, M. and de Supinski, B.R.},
+booktitle={Supercomputing, 2007. SC '07. Proceedings of the 2007 ACM/IEEE Conference on},
+title={{PNMPI} tools: a whole lot greater than the sum of their parts},
+year={2007},
+pages={1-10},
+month={Nov},
+}
+
+@inproceedings{MPITracePatterns:Preissl:2008,
+author={Preissl, R. and Kockerbauer, T. and Schulz, M. and Kranzlmuller, D. and Supinski, B. and Quinlan, D.J.},
+booktitle={Parallel Processing, 2008. ICPP '08. 37th International Conference on},
+title={Detecting Patterns in {MPI} Communication Traces},
+year={2008},
+pages={230-237},
+month={Sept},
+}
+
+@inproceedings{Piggybacking:Schulz:2008,
+author = {Schulz, Martin and Bronevetsky, Greg and Supinski, Bronis R.},
+title = {On the Performance of Transparent {MPI} Piggyback Messages},
+booktitle = {Proceedings of the 15th European PVM/MPI Users' Group Meeting on Recent Advances in Parallel Virtual Machine and Message Passing Interface},
+year = {2008},
+location = {Dublin, Ireland},
+pages = {194--201},
+numpages = {8},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+}
+
+@inproceedings{PreservingTime:Ratn:2008,
+author = {Ratn, Prasun and Mueller, Frank and de Supinski, Bronis R. and Schulz, Martin},
+title = {Preserving Time in Large-scale Communication Traces},
+booktitle = {Proceedings of the 22Nd Annual International Conference on Supercomputing},
+series = {ICS '08},
+year = {2008},
+location = {Island of Kos, Greece},
+pages = {46--55},
+numpages = {10},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+@inproceedings{Lessons:Lee:2008,
+author = {Lee, Gregory L. and Ahn, Dong H. and Arnold, Dorian C. and de Supinski, Bronis R. and Legendre, Matthew and Miller, Barton P. and Schulz, Martin and Liblit, Ben},
+title = {Lessons Learned at 208K: Towards Debugging Millions of Cores},
+booktitle = {Proceedings of the 2008 ACM/IEEE Conference on Supercomputing},
+series = {SC '08},
+year = {2008},
+location = {Austin, Texas},
+pages = {26:1--26:9},
+articleno = {26},
+numpages = {9},
+publisher = {IEEE Press},
+address = {Piscataway, NJ, USA},
+} 
+
+@inproceedings{TemporalOrderAnalysis:Ahn:2009,
+author = {Ahn, Dong H. and de Supinski, Bronis R. and Laguna, Ignacio and Lee, Gregory L. and Liblit, Ben and Miller, Barton P. and Schulz, Martin},
+title = {Scalable Temporal Order Analysis for Large Scale Debugging},
+booktitle = {Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis},
+series = {SC '09},
+year = {2009},
+location = {Portland, Oregon},
+pages = {44:1--44:11},
+articleno = {44},
+numpages = {11},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+@inproceedings{DAMPI:Vo:2010,
+author = {Vo, Anh and Aananthakrishnan, Sriram and Gopalakrishnan, Ganesh and Supinski, Bronis R.  de and Schulz, Martin and Bronevetsky, Greg},
+title = {A Scalable and Distributed Dynamic Formal Verifier for {MPI} Programs},
+booktitle = {Proceedings of the 2010 ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis},
+series = {SC '10},
+year = {2010},
+pages = {1--10},
+numpages = {10},
+publisher = {IEEE Computer Society},
+address = {Washington, DC, USA},
+} 
+
+@inproceedings{CommunicationDeterminism:Cappello:2010,
+author={Cappello, F. and Guermouche, A. and Snir, M.},
+booktitle={Computer Communications and Networks (ICCCN), 2010 Proceedings of 19th International Conference on},
+title={On Communication Determinism in Parallel {HPC} Applications},
+year={2010},
+pages={1-8},
+month={Aug},
+}
+
+@inproceedings{SystemNoise:Hoefler:2010,
+author = {Hoefler, Torsten and Schneider, Timo and Lumsdaine, Andrew},
+title = {Characterizing the Influence of System Noise on Large-Scale Applications by Simulation},
+booktitle = {Proceedings of the 2010 ACM/IEEE International Conference for High Performance Computing, Networking, Storage and Analysis},
+series = {SC '10},
+year = {2010},
+pages = {1--11},
+numpages = {11},
+publisher = {IEEE Computer Society},
+address = {Washington, DC, USA},
+}   
+
+@inproceedings{SimilarityMeasure:Lassnig:2011,
+author = {Lassnig, Mario and Fahringer, Thomas and Garonne, Vincent and Molfetas, Angelos and Barisits, Martin},
+title = {A Similarity Measure for Time, Frequency, and Dependencies in Large-scale Workloads},
+booktitle = {Proceedings of 2011 International Conference for High Performance Computing, Networking, Storage and Analysis},
+series = {SC '11},
+year = {2011},
+location = {Seattle, Washington},
+pages = {43:1--43:11},
+articleno = {43},
+numpages = {11},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+@inproceedings{FormalAnalysisOfMPI:Siegel:2011,
+author = {Siegel, Stephen F. and Gopalakrishnan, Ganesh},
+title = {Formal Analysis of Message Passing},
+booktitle = {Proceedings of the 12th International Conference on Verification, Model Checking, and Abstract Interpretation},
+series = {VMCAI'11},
+year = {2011},
+location = {Austin, TX, USA},
+pages = {2--18},
+numpages = {17},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+} 
+
+
+@inproceedings{SCALATRACE:Wu:2013,
+author = {Wu, Xing and Mueller, Frank},
+title = {Elastic and Scalable Tracing and Accurate Replay of Non-deterministic Events},
+booktitle = {Proceedings of the 27th International ACM Conference on International Conference on Supercomputing},
+series = {ICS '13},
+year = {2013},
+location = {Eugene, Oregon, USA},
+pages = {59--68},
+numpages = {10},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+@inproceedings{PRODOMETER:Mitra:2014,
+author = {Mitra, Subrata and Laguna, Ignacio and Ahn, Dong H. and Bagchi, Saurabh and Schulz, Martin and Gamblin, Todd},
+title = {Accurate Application Progress Analysis for Large-scale Parallel Debugging},
+booktitle = {Proceedings of the 35th ACM SIGPLAN Conference on Programming Language Design and Implementation},
+series = {PLDI '14},
+year = {2014},
+location = {Edinburgh, United Kingdom},
+pages = {193--203},
+numpages = {11},
+publisher = {ACM},
+address = {New York, NY, USA},
+}
+
+@article{Ravel:Isaacs:2014,
+author={Isaacs, K.E. and Bremer, P.-T. and Jusufi, I. and Gamblin, T. and Bhatele, A. and Schulz, M. and Hamann, B.},
+journal={Visualization and Computer Graphics, IEEE Transactions on},
+title={Combing the Communication Hairball: Visualizing Parallel Execution Traces using Logical Time},
+year={2014},
+volume={20},
+number={12},
+pages={2349-2358},
+month={Dec},
+}
+
+@article{Debugging:Laguna:2015,
+author = {Laguna, Ignacio and Ahn, Dong H. and de Supinski, Bronis R. and Gamblin, Todd and Lee, Gregory L. and Schulz, Martin and Bagchi, Saurabh and Kulkarni, Milind and Zhou, Bowen and Chen, Zhezhe and Qin, Feng},
+title = {Debugging High-performance Computing Applications at Massive Scales},
+journal = {Commun. ACM},
+issue_date = {September 2015},
+volume = {58},
+number = {9},
+month = aug,
+year = {2015},
+pages = {72--81},
+numpages = {10},
+publisher = {ACM},
+address = {New York, NY, USA},
+} 
+
+@article{ProgressDependence:Laguna:2015,
+author={Laguna, I. and Ahn, D.H. and de Supinski, B.R. and Bagchi, S. and Gamblin, T.},
+journal={Parallel and Distributed Systems, IEEE Transactions on},
+title={Diagnosis of Performance Faults in LargeScale {MPI} Applications via Probabilistic Progress-Dependence Inference},
+year={2015},
+volume={26},
+number={5},
+pages={1280-1289},
+month={May},
+}
